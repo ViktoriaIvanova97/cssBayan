@@ -1,6 +1,6 @@
 body{
 	
-	margin: 100px ;
+	margin: 100px 200px ;
 	background-color: rgb(232, 224, 241);
 	
 }
@@ -27,9 +27,12 @@ h1{
 	font-weight: bold;
 	font-size: 25px;
 	
+	
+	
 }
 summary{
 	list-style: none;
+	
 }
 
 
@@ -47,7 +50,7 @@ summary::after {
 details[open] > summary::after {
     background: url("img/32178.png")no-repeat 50% 50% / 1em 1em;
     right: .1em;
-    width: 10em;
+    width: 20 em;
 	height: 1em;  
 	content: "";
 	position: absolute;
@@ -56,7 +59,7 @@ details[open] > summary::after {
 summary:hover::after {  
 	right: .1em;
 	background: url("img/64484.png") no-repeat 50% 50% / 1em 1em;
-	width: 10em;
+	width: 20em;
 	height: 1em;  
 	content: "";
 	position: absolute;
@@ -64,10 +67,12 @@ summary:hover::after {
 
 
 img{
-		max-width:50%;
+		max-width:40%;
 		display: block;
         margin: 0 auto;
 }
+
+
 
 hr{
 	margin: 20px 0;
