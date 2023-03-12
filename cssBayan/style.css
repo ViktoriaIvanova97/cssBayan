@@ -1,0 +1,33 @@
+body{
+	
+	margin: 100px ;
+	background-color: rgb(232, 224, 241);
+	
+}
+summary{
+	cursor: pointer;
+}
+
+summary{
+	list-style: none;
+	}
+
+summary::after {  
+	right: .1em;
+	background: url("img/64484.png") no-repeat 50% 50% / 1em 1em;
+	width: 15em;
+	height: 1em;  
+	content: "";
+	position: absolute;
+	transition: transform .5s;
+	
+}
+details[open] > summary::after {
+    background: url("img/32178.png")no-repeat 50% 50% / 1em 1em;
+    right: .1em;
+    width: 15em;
+	height: 1em;  
+	content: "";
+	position: absolute;
+	transition: transform .5s;
+}
